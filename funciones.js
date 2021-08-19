@@ -19,18 +19,19 @@ console.log(test1(10, 40)); */
 }
 
 console.log(test2(10)) */
+
 // Pulgadas a centimestros 
 
 function conversion(a){
-    return a * 2.54
+    return a * 2.54;
 }
 
-//console.log( conversion(1) )
+//console.log(conversion(1));
 
 function url(b) {
     return "http://www." + b + ".com";
 }
-//console.log( url("pepito") )
+//console.log(url("pepito"));
 
 function admiracion(c) {
     return "¡" + c + "!";
@@ -48,28 +49,28 @@ function timeWork(e) {
     return e / 40;
 }
 
-//console.log(timeWork(250000))
+//console.log(timeWork(250000));
 
 function calculadorIMC(x, y){
     return x / (y * y);
 }
 
-//console.log(calculadorIMC(60, 1.70))
+//console.log(calculadorIMC(60, 1.70));
 
 function mayuscula(d) {
-    return d.toUpperCase()
+    return d.toUpperCase();
 }
 
-//console.log(mayuscula("colombia y argentina"))
+//console.log(mayuscula("colombia y argentina"));
 
 function tipoDe(e) {
-    return typeof e
+    return typeof e;
 }
 
-//console.log(tipoDe(true))
+//console.log(tipoDe(true));
 
 function calcularCircunferencia(z){
     return 2 * Math.PI * z;
 }
 
-console.log(calcularCircunferenci
+console.log(calcularCircunferencia(1));
